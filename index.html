@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LockedCraft Legacy Organisation</title>
+<meta name="description" content="The closing website of a 2018-2021 non-profit dedicated to providing conclusion to the now-defunct LockedCraft Network.">
+<meta name="keywords" content="LC, LCLO, MineCraft, Reunion, MineCraft Server, SMP, Towny, KitPVP, CraftGround, CraftGrounds, ChosenCraft, Graf33, maddogtherobot, madogtherobot, LockedCraft, LockedCraft Legacy, LockedCraft Legacy Org, LockedCraft Legacy Organization">
+<meta name="author" content="LCLO">
+<meta data-rh="true" property="twitter:image" content="images/logo.png">
+<meta name="theme-color" content="#333">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/favicon.ico">
+<style>
+	/* Main Styling */
+	html {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Helvetica, "sans-serif";
+		/*background-color: black;*/
+		scrollbar-color: #111212 #1E1E1E;
+	}
+	body {
+		/*background-image: url("images/LCLObackground.png");*/
+		background-image: url("images/background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 0px;
+		height: 2850px;
+		padding: 0;
+	}
+	/* Top navigation bar */
+	.topnav {
+		width:100%;
+		background-image: linear-gradient(#1E1E1E, #181818, #212121);
+		overflow: auto;
+		padding: 3px 1px 6px 1px;
+		border: solid #323232;
+		border-width: 0px 0px 2px 0px;
+	}
+	.topnav a {
+		padding: 3px 25px 6px 25px;
+		color: white;
+		text-decoration: none;
+		font-size: 25px;
+	}
+	.topnav a:hover {
+		background-color: hsla(242,100%,15%,0.30);
+	}
+	/* Attempt to manage mobile devices. */
+	@media screen and (max-width: 1467px) {
+		.topnav a {
+    		float: none;
+    		display: block;
+  		}
+	}
+	@media screen and (max-width: 1300px) {
+		.ContentWrapper {
+			width: 100% !important;
+		}
+		.moduleone {
+		width:100% !important;
+		margin: 0px 0px 0px 0px !important;
+		height: 320px!important;
+		}
+		.moduletwo {
+		width:100% !important;
+		margin: 0px 0px 0px 0px !important;
+		top: 350px!important;	
+		}
+		body {
+			width: 100% !important;
+			height: auto !important;
+		}
+		.content {
+			margin: 0px 1px 0px 1px !important;
+		}
+		.content p {
+			margin-left: 10px !important;
+			margin-right: 10px !important;
+		}
+		.mobilehide {
+			display: none;
+		}
+		.bottomnav {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 1150px) {
+		.mainheader {
+    		display: none;
+  		}
+	}
+	/* Top Logo */
+	.mainheader {
+		padding: 25px 0px 20px 0px;
+	}
+	/*Body Area*/
+	.ContentWrapper {
+		width: 1350px;
+		display: flex;
+		position: relative;
+	}
+	.moduleone {
+		width:1250px;
+		margin: 25px 50px 25px 50px;
+		background-color: hsla(0,0%,11%,0.80);
+		color: #E6E6E6;
+		border: solid #323232;
+		border-radius: 10px;
+		border-width: 2px 2px 2px 2px;
+		position: absolute;
+		top: 0px;
+		z-index: 1
+	}
+	.moduletwo {
+		width:1250px;
+		margin: 25px 50px 25px 50px;
+		background-color: hsla(0,0%,11%,0.80);
+		color: #E6E6E6;
+		border: solid #323232;
+		border-radius: 10px;
+		border-width: 2px 2px 2px 2px;
+		position: absolute;
+		top: 275px;
+		z-index: 2;
+		left: 0px;
+	}
+	.subheader {
+		width: 100%;
+		background-image: linear-gradient(hsla(200,5%,5%,0.2), hsla(200,5%,5%,0.5), hsla(200,5%,5%,0.8));
+		overflow: auto;
+		border: solid black;
+		border-width: 0px 0px 2px 0px;
+		padding-top: 5px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 18px;
+		position: relative;
+		height: 22px;
+		overflow-y: hidden;
+	}
+	.subheader .Header {
+		margin: 3px 0px 5px 8px;
+		position: absolute;
+		z-index: 3;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+	}
+	.subheader .Logo {
+		position:absolute;
+		z-index: 4;
+		top: 0px;
+		left: 0px;
+		text-align: right !important;
+		right: 0px;
+		bottom: 0px;
+		margin: 0px 8px 5px 0px;
+		font-size: 25px;
+		font-weight: 715;
+		font-family: "source-code-pro", sans-serif;
+		font-kerning: 0px;
+	}
+	.subheader .Logo .LetterOne {
+		color: #02B2F0;
+	}
+	.subheader .Logo .LetterTwo {
+
+		color: #E8E8E8;
+	}
+	.content {
+		margin: 25px 5px 45px 5px;
+	}
+	.content .title {
+		font-size: 45px;
+	}
+	.content .text {
+		font-size: 30px;
+	}
+	.content p {
+		margin-top: 0.4em;
+		margin-bottom: 0.4em;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	.content a {
+		text-decoration: none;
+		color: #7AA2FF;
+	}
+	.content .longtext {
+		margin: 15px 0px 0px 0px;
+	}
+	.content .longtext p {
+		margin-top: 3em;
+		margin-left: 6em;
+		margin-right: 6em;
+	}
+	/* Bottom navigation bar */
+	.bottomnav {
+		width:100%;
+		background-image: linear-gradient(black, #0f0f0f, #171719, #0b0b0c, #0b0b0c, black, #0b0b0c);
+		overflow: auto;
+		position: fixed;
+		bottom: 0;
+		z-index: 4;
+		/*top: 2510px;*/
+		padding: 3px 1px 6px 1px;
+		border: solid black;
+		border-width: 2px 0px 0px 0px;
+	}
+	.bottomnav .textarea {
+		padding: 3px 25px 6px 25px;
+		color: white;
+		text-decoration: none;
+		font-size: 12px;
+		text-align: center;
+	}
+</style>
+<script>
+</script>
+</head>
+<body>
+	<!-- Navigation Bar-->
+	<div class="topnav">
+		<center>
+			<a href="https://discord.gg/7bPcSQB3Wp"><i class="fa fa-fw fa-comments"></i> Community (Discord)</a>
+			<a href="https://ras.mc-smp.com"><i class="fa fa-fw fa-server"></i> RAS List</a>
+		</center>
+	</div>
+	<!-- Header Logo-->
+	<center>
+	<img src="images/mainheader.png" alt="LockedCraft Header" width="58%" class="mainheader"/>
+	</center>
+	<!-- Main Content-->
+	<center>
+		<div class="ContentWrapper">
+			<!--Top Message-->
+			<div class="moduleone">
+				<div class="subheader">
+					<span class="Header">Notice of Closure</span>
+					<span class="Logo">
+						<span class="LetterOne">L</span><span class="LetterTwo">C</span>
+					</span>
+				</div>
+				<div class="content">
+					<span class="title">LockedCraft ended in 2016; the LCLO closed down in 2021.</span><br><br>
+					<p class="text">To reconnect with the community, join our <a href="https://discord.gg/7bPcSQB3Wp">discord</a>.</p>
+				  <p class="text">For more information, click <a href="directory.html">here</a>.</p>
+                </div>
+			</div>
+		</div>
+	</center>
+	<div class="bottomnav">
+		<div class="textarea">
+			<span>©2013 LockedCraft Network & © 2021 The LockedCraft Legacy Organization.</span><br>
+			<span>Page created by the LockedCraft Network; hosting and maintenance provided by the LockedCraft Legacy Organization</span>
+			<!--Page hand-written in HTML by the LCLO on 2020-09-09-->
+		</div>
+	</div>
+</body>
+</html>
+
+	
